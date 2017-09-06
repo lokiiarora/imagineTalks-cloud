@@ -1,0 +1,95 @@
+.img-center {
+    margin: auto;
+    display: block;
+    width:300px;
+    height:300px;
+}
+.img-rect{
+    margin: auto;
+    display: block;
+}
+
+.ask {
+    font-size: 64px;
+    position: absolute;
+    top: -0.5em;
+    left: 1.5em;
+    -webkit-transform: translateZ(20px);
+    -moz-transform: translateZ(20px);
+    -ms-transform: translateZ(20px);
+    -o-transform: translateZ(20px);
+    transform: translateZ(20px);
+}
+
+.ask-q {
+    position: relative;
+    left: 2em;
+}
+
+.full-width {
+    width: 100vw !important;
+}
+
+.padd-20 {
+    padding: 20px;
+}
+
+.img-scale-one-half {
+    transition: transform 500ms ease;
+}
+
+.img-scale-one-half:hover {
+    transform: scale(1.5);
+}
+
+.text-content {
+    font-size: larger;
+    line-height: 60px;
+    text-align: justify;
+}
+
+.big2 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 1;
+}
+
+.big2 b {
+    display: block;
+    font-size: 250px;
+    line-height: 250px;
+}
+
+.big2 .thoughts {
+    font-size: 90px;
+    line-height: 150px;
+}
+
+.platform {
+    width: 1215px;
+    text-align: right;
+}
+
+.platform .platform-span-1 {
+    display: block;
+    font-size: 115px;
+    font-family: serif;
+    letter-spacing: 15px;
+    line-height: 0.5;
+    text-align: left;
+}
+
+.platform b {
+    display: block;
+    font-size: 190px;
+}
+
+.platform .platform-span-2 {
+    font-style: italic;
+    font-size: 100px;
+    line-height: 0;
+}
+
+#hostings {
+    width: 1400px;
+}
